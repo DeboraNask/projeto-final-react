@@ -2,7 +2,7 @@ import { useState } from "react"
 import { database } from "../../services/firebase"
 import { ref, set, push } from "firebase/database"
 import styles from "./contato.module.css"
-import contatoImg from "../../assets/contato.png"
+import contatoImg from "../../assets/faleconosco.png"
 
 function Contato() {
     const [nome, setNome] = useState('')
@@ -42,7 +42,7 @@ function Contato() {
         <>
           <div className={styles.header}>
             <h1>
-              Entre em contato
+              Deixe sua mensagem
             </h1>
             <img src={contatoImg} />
           </div>

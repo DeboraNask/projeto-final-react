@@ -1,6 +1,6 @@
 .header {
     text-align: center;
-    color: #fff;
+    color: black;
     background: red;  
 }
   
@@ -10,9 +10,9 @@
 }
   
 .header img {
-    margin: 2rem;
-    width: 40vw;
-    height: 20vh;
+    margin: 1rem;
+    width: 30vw;
+    height: 45vh;
 }
   
 .formContainer {

@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react'
-import Eu from '../../assets/comente.png'
+import Eu from '../../assets/comentario.png'
 import styles from './comentarios.module.css'
 import { FiTrash2, FiPlus } from 'react-icons/fi'
 import { nanoid } from 'nanoid'

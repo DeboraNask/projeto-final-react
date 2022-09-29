@@ -13,8 +13,8 @@
   
 .header img {
     margin: 2rem;
-    width: 40vw;
-    height: 60vh;
+    width: 30vw;
+    height: 45vh;
 }
   
 .list {
@@ -76,7 +76,7 @@
     justify-content: space-between;
     align-items: center;
     margin: 0 auto;
-    border-bottom: 0.7px solid #7e7d7d;
+    border-bottom: 0.7px solid black;
     width: 60%;
 }
     
