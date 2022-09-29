@@ -1,8 +1,8 @@
+import { useState } from "react"
 import { database } from "../../services/firebase"
 import { ref, set, push } from "firebase/database"
-import { useState } from 'react'
-import styles from './contato.module.css'
-import contatoImg from '../../assets/comente.png'
+import styles from "./contato.module.css"
+import contatoImg from "../../assets/contato.png"
 
 function Contato() {
     const [nome, setNome] = useState('')

@@ -3,8 +3,8 @@ import Menu from './components/Menu/Menu'
 import Footer from './components/Footer/Footer'
 import Home from './pages/Home/Home'
 import Cardapio from './pages/Cardapio/Cardapio'
-import Contato from './pages/Contato/Contato'
 import Comentarios from './pages/Comentarios/Comentarios'
+import Contato from './pages/Contato/Contato'
 
 
 function ApplicationRoutes() {
@@ -14,8 +14,8 @@ function ApplicationRoutes() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/cardapio" element={<Cardapio />} />
-        <Route path="/contato" element={<Contato />} />
         <Route path="/comentarios" element={<Comentarios />} />
+        <Route path="/contato" element={<Contato />} />
       </Routes>
       <Footer />
     </BrowserRouter>
